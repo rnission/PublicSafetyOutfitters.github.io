@@ -1,0 +1,39 @@
+site_name: Public Safety Outfitters Docs
+
+copyright: Copyright; 2020-2021 Public Safety Outfitters
+
+docs_dir: docs
+
+theme:
+  name: ivory
+  custom_dir: page
+
+markdown_extensions:
+  - markdown.extensions.attr_list
+
+nav:
+    - 'Home' : 'index.md'
+    - 'F.A.Q' : 'faq.md'
+    - 'Contact' : 'contact.md'
+    
+
+    - 'Policies' :
+      - 'Copyright Policy' : 'policy/copyright.md'
+      - 'Sponsor Policy' : 'policy/sponsor.md'
+      - 'Commission T.O.S.' : 'policy/commission.md'
+      - 'Payment Policy' : 'policy/payment.md'
+    
+    - 'Guides' :
+      - 'Ordering' : 'guides/orders.md'
+      - 'Tracking your order' : 'guides/tracking.md'
+      
+    - 'Products' :
+      - 'User Management' : 'products/user.md'
+      - 'Enhanced Chat' : 'products/chat.md'
+      - 'Motorola APX6000' : 'products/radio.md'
+      
+    - 'Commissions' :
+      - 'Order Status' : 'commissions/status.md'
+      - 'Order Types' : 'commissions/types.md'
+      - 'Custom Commission Prices' : 'commissions/price.md'
+      - 'Delivery Options' : 'commissions/delivery.md'
